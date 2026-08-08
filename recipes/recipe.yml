@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: mithril
-description: My modification of Fedora Silverblue.
+description: A modification of Fedora Silverblue, streamlined for gaming and general use.
 base-image: ghcr.io/ublue-os/silverblue-nvidia
 image-version: 44
 
@@ -10,12 +10,6 @@ modules:
     files:
       - source: system
         destination: /
-#      - source: wallpapers
-#        destination: /usr/share/backgrounds
-#      - source: sounds
-#        destination: /usr/share/themes
-#      - source: cursors
-#        destination: /usr/share/icons
 
   - type: akmods
     base: main
@@ -37,13 +31,9 @@ modules:
         - gnome-shell-extension-launch-new-instance
         - gnome-shell-extension-places-menu
         - gnome-shell-extension-window-list
-        - gnome-extensions-app
-        - gnome-weather
         - yelp
         - yelp-libs
-        - yelp-tools
         - yelp-xsl
-        - yelp-xsl-devel
 
   - type: gnome-extensions
     install:
