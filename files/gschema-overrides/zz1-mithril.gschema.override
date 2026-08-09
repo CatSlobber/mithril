@@ -1,0 +1,55 @@
+[org.gnome.settings-daemon.plugins.power]
+power-button-action='nothing'
+sleep-inactive-ac-type='nothing'
+
+[org.gnome.mutter]
+dynamic-workspaces=false
+
+[org.gnome.desktop.notifications]
+show-banners=false
+show-in-lock-screen=false
+
+[org.gnome.desktop.privacy]
+remember-recent-files=false
+
+[org.gnome.shell]
+enabled-extensions=['blur-my-shell@aunetx', 'compiz-windows-effect@hermes83.github.com', 'dash-to-panel@jderose9.github.com', 'just-perfection-desktop@just-perfection', 'arcmenu@arcmenu.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'user-accent-colors@fabito02']
+favorite-apps=['org.Gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop', 'steam.desktop']
+
+[org.gnome.desktop.wm.preferences]
+num-workspaces=3
+button-layout='appmenu:minimize,maximize,close'
+
+[org.gnome.desktop.sound]
+theme-name='Ocean'
+
+[org.gnome.settings-daemon.plugins.media-keys]
+volume-step='3'
+
+[org.gnome.desktop.interface]
+color-scheme='prefer-dark'
+cursor-theme='Bibata-Original-Classic'
+font-name='SUSE Medium 11 @wght=500'
+document-font-name='Lato 12'
+monospace-font-name='JetBrains Mono 11'
+font-hinting='none'
+font-antialiasing='grayscale'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/Monterey Dark Purple.png'
+picture-uri-dark='file:///usr/share/backgrounds/Monterey Dark Purple.png'
+
+[org.gtk.settings.file-chooser]
+clock-format='12h'
+
+[org.gtk.gtk4.settings.file-chooser]
+sort-directories-first=true
+show-hidden=true
+
+[org.gnome.nautilus.icon-view]
+default-zoom-level='medium'
+
+[org.gnome.nautilus.list-view]
+default-visible-columns=['name', 'size', 'type', 'date_modified']
+default-zoom-level='small'
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'date_modified', 'date_accessed', 'date_created', 'recency', 'detailed_type', 'rp-game-id', 'rp-title-id', 'rp-media-id', 'rp-os-version', 'rp-encryption-key', 'rp-pixel-format', 'rp-region-code', 'rp-category', 'rp-ripped-by']
