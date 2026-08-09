@@ -24,7 +24,7 @@ button-layout='appmenu:minimize,maximize,close'
 theme-name='Ocean'
 
 [org.gnome.settings-daemon.plugins.media-keys]
-volume-step='3'
+volume-step=3
 
 [org.gnome.desktop.interface]
 color-scheme='prefer-dark'
