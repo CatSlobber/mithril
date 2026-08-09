@@ -1,8 +1,49 @@
 # mithril &nbsp; [![bluebuild build badge](https://github.com/catslobber/mithril/actions/workflows/build.yml/badge.svg)](https://github.com/catslobber/mithril/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, based on the uBlue silverblue-main-nvidia image.
 
-After setup, it is recommended you update this README to describe your custom image.
+### Gaming Additions
+- xone + nvidia akmods
+- Native Steam app
+
+### UI Customizations
+- Fonts from Google
+- Custom wallpapers
+- Dark Theme default
+- Nautilus view options
+- KDE Ocean sound theme
+- Bibata Original Classic cursors
+
+### Installed & Preconfigured Gnome Extensions
+- ArcMenu
+- Auto Move Windows
+- Blur my Shell
+- ChromaLeon
+- Compiz window effect
+- Dash to Panel
+- Just Perfection
+
+### Flatpaks from FlatHub
+- Celluloid
+- Extension Manager
+- Firefox
+- Folio
+- fooyin
+- Loupe
+- Pika Backup
+- Refine
+- Thunderbird
+
+### Removals
+- native Fedora Firefox
+- Gnome Tour
+- Gnome Help
+- Fedora bundled Gnome extensions
+
+### Further Planned Customizations
+- MediaShell Gnome extension (awaiting acceptance on EGO)
+- WhiteSur icon theme (awaiting addition of fooyin app icon)
+- custom distro icon and logo
 
 ## Installation
 
@@ -32,7 +73,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## ISO
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+You can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
 
 ## Verification
 
