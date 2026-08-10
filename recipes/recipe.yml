@@ -68,8 +68,8 @@ modules:
           - org.fooyin.fooyin
       - scope: user
 
-#  - type: gschema-overrides
-#    include:
-#      - zz1-mithril.gschema.override
+  - type: gschema-overrides
+    include:
+      - zz1-mithril.gschema.override
 
   - type: signing
