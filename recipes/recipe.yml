@@ -14,6 +14,7 @@ modules:
   - type: akmods
     base: main
     install:
+      - xone-common
       - xone
 
   - type: dnf
@@ -31,6 +32,9 @@ modules:
         - gnome-shell-extension-launch-new-instance
         - gnome-shell-extension-places-menu
         - gnome-shell-extension-window-list
+        - malcontent-control
+        - malcontent-pam
+        - malcontent-tools
         - yelp
         - yelp-libs
         - yelp-xsl
