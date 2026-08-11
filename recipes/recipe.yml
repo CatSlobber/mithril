@@ -14,6 +14,7 @@ modules:
   - type: akmods
     base: main
     install:
+      - xone-common
       - xone
 
   - type: dnf
@@ -61,14 +62,22 @@ modules:
       - notify: true
         scope: system
         install:
+          - org.gnome.Calculator
+          - org.gnome.Characters
+          - org.gnome.baobab
+          - org.gnome.Papers
+          - org.gnome.font-viewer
+          - org.gnome.Logs
+          - org.gnome.Loupe
+          - org.gnome.NautilusPreviewer
+          - org.gnome.TextEditor
+          - org.gnome.World.PikaBackup
           - org.mozilla.firefox
           - org.mozilla.thunderbird
           - com.mattjakeman.ExtensionManager
           - page.tesk.Refine
-          - org.gnome.Loupe
           - io.github.celluloid_player.Celluloid
           - com.toolstack.Folio
-          - org.gnome.World.PikaBackup
           - org.fooyin.fooyin
       - scope: user
 
