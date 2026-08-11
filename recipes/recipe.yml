@@ -15,6 +15,7 @@ modules:
     base: main
     install:
       - xone
+      - xone-common
 
   - type: dnf
     install:
