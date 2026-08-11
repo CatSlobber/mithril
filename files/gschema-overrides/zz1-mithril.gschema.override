@@ -82,7 +82,7 @@ default-menu-view-redmond='All_Programs'
 default-menu-view-runner='Default'
 default-menu-view-tognee='Categories_List'
 directory-shortcuts=[{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'ArcMenu_Home'}, {'id': 'ArcMenu_Documents', 'name': 'Documents', 'icon': 'ArcMenu_Documents'}, {'id': 'ArcMenu_Downloads', 'name': 'Downloads', 'icon': 'ArcMenu_Downloads'}, {'id': 'ArcMenu_Music', 'name': 'Music', 'icon': 'ArcMenu_Music'}, {'id': 'ArcMenu_Pictures', 'name': 'Pictures', 'icon': 'ArcMenu_Pictures'}, {'id': 'ArcMenu_Videos', 'name': 'Videos', 'icon': 'ArcMenu_Videos'}]
-eleven-layout-extra-shortcuts [{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}]
+eleven-layout-extra-shortcuts=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}]
 eleven-show-frequent-apps=true
 enable-activities-shortcut=false
 enable-clock-widget-raven=true
