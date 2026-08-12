@@ -22,6 +22,7 @@ modules:
         - steam
       exclude:
         - htop
+        - nvtop
     remove:
       packages:
         - firefox
@@ -80,6 +81,7 @@ modules:
           - io.github.celluloid_player.Celluloid
           - com.toolstack.Folio
           - org.fooyin.fooyin
+          - net.nokyan.Resources
       - scope: user
 
   - type: gschema-overrides
