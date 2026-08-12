@@ -73,6 +73,7 @@ modules:
           - org.mozilla.firefox
           - org.mozilla.thunderbird
           - com.mattjakeman.ExtensionManager
+          - com.github.tchx84.Flatseal
           - page.tesk.Refine
           - io.github.celluloid_player.Celluloid
           - com.toolstack.Folio
