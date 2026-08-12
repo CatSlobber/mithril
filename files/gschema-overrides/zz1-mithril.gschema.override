@@ -2,6 +2,10 @@
 power-button-action='nothing'
 sleep-inactive-ac-type='nothing'
 
+[org.gnome.desktop.wm.preferences]
+num-workspaces=3
+button-layout='appmenu:minimize,maximize,close'
+
 [org.gnome.mutter]
 dynamic-workspaces=false
 
@@ -15,10 +19,6 @@ remember-recent-files=false
 [org.gnome.shell]
 enabled-extensions=['blur-my-shell@aunetx', 'compiz-windows-effect@hermes83.github.com', 'dash-to-panel@jderose9.github.com', 'just-perfection-desktop@just-perfection', 'arcmenu@arcmenu.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'user-accent-colors@fabito02']
 favorite-apps=['org.Gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop', 'steam.desktop']
-
-[org.gnome.desktop.wm.preferences]
-num-workspaces=3
-button-layout='appmenu:minimize,maximize,close'
 
 [org.gnome.desktop.sound]
 theme-name='Ocean'
@@ -74,7 +74,7 @@ az-layout-merge-panels=false
 brisk-layout-extra-shortcuts=[{'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}]
 button-item-icon-size='Default'
 category-icon-type='Symbolic'
-context-menu-items=[{'id': 'org.gnome.Extensions.desktop'}, {'id': 'ArcMenu_Settings', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}, {'id': 'ArcMenu_PanelExtensionSettings', 'name': 'Panel Extension Settings', 'icon': 'application-x-addon-symbolic'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_PowerOptions', 'name': 'Power Options', 'icon': 'system-shutdown-symbolic'}, {'id': 'ArcMenu_ActivitiesOverview', 'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic'}, {'id': 'ArcMenu_ShowDesktop', 'name': 'Show Desktop', 'icon': 'computer-symbolic'}]
+context-menu-items=[{'id': 'com.mattjakeman.ExtensionManager.desktop'}, {'id': 'ArcMenu_Settings', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}, {'id': 'ArcMenu_PanelExtensionSettings', 'name': 'Panel Extension Settings', 'icon': 'application-x-addon-symbolic'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_PowerOptions', 'name': 'Power Options', 'icon': 'system-shutdown-symbolic'}, {'id': 'ArcMenu_ActivitiesOverview', 'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic'}, {'id': 'ArcMenu_ShowDesktop', 'name': 'Show Desktop', 'icon': 'computer-symbolic'}]
 custom-grid-icon-size={'width': 108, 'height': 108, 'iconSize': 82}
 dash-to-panel-standalone=false
 default-menu-view='Pinned_Apps'
@@ -110,7 +110,7 @@ menu-background-color='rgba(48,48,49,0.98)'
 menu-border-color='rgb(60,60,60)'
 menu-border-radius=14
 menu-border-width=1
-menu-button-active-bg-color=(true, 'rgba(242,242,242,0.2)')
+menu-button-active-bg-color=(true, 'rgba(242,242,242,0.25)')
 menu-button-active-fg-color=(false, 'rgb(242,242,242)')
 menu-button-appearance='Icon'
 menu-button-bg-color=(false, 'rgba(242,242,242,0.2)')
@@ -118,19 +118,19 @@ menu-button-border-color=(false, 'transparent')
 menu-button-border-radius=(true, 24)
 menu-button-border-width=(true, 2)
 menu-button-fg-color=(false, 'rgb(242,242,242)')
-menu-button-hover-bg-color=(true, 'rgba(242,242,242,0.15)')
+menu-button-hover-bg-color=(true, 'rgba(242,242,242,0.21)')
 menu-button-hover-fg-color=(false, 'rgb(242,242,242)')
 menu-button-icon='system-logo-white'
-menu-button-icon-size=28
+menu-button-icon-size=32
 menu-button-left-click-action='ArcMenu'
-menu-button-middle-click-action='ArcMenu'
+menu-button-middle-click-action='None'
 menu-button-padding=-1
 menu-button-position-offset=0
 menu-button-right-click-action='ContextMenu'
 menu-button-text='Apps'
 menu-font-size=11
 menu-foreground-color='rgb(223,223,223)'
-menu-height=800
+menu-height=530
 menu-item-active-bg-color='rgb(25,98,163)'
 menu-item-active-fg-color='rgb(255,255,255)'
 menu-item-category-icon-size='Default'
@@ -188,7 +188,7 @@ show-bookmarks=false
 show-category-sub-menus=false
 show-external-devices=false
 show-hidden-recent-files=false
-show-recently-installed-apps=true
+show-recently-installed-apps=false
 show-search-result-details=false
 show-tooltips=true
 show-user-avatar=true
