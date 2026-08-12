@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: mithril
 description: A modification of Fedora Silverblue, streamlined for gaming and general use.
-base-image: ghcr.io/blue-build/base-images/fedora-silverblue # ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/silverblue-main # ghcr.io/blue-build/base-images/fedora-silverblue
 image-version: 44
 
 modules:
@@ -11,10 +11,10 @@ modules:
       - source: system
         destination: /
 
-#  - type: akmods
-#    base: main
-#    install:
-#      - xone
+  - type: akmods
+    base: main
+    install:
+      - xone
 
   - type: dnf
     install:
