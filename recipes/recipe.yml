@@ -20,8 +20,6 @@ modules:
     install:
       packages:
         - steam
-      exclude:
-        - htop
     remove:
       packages:
         - firefox
