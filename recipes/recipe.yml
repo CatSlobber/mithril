@@ -37,6 +37,8 @@ modules:
         - yelp
         - yelp-libs
         - yelp-xsl
+        - htop
+        - nvtop
 
   - type: gnome-extensions
     install:
