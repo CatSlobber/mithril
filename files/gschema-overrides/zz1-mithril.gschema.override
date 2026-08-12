@@ -27,6 +27,7 @@ theme-name='Ocean'
 volume-step=3
 
 [org.gnome.desktop.interface]
+enable-hot-corners=false
 color-scheme='prefer-dark'
 cursor-theme='Bibata-Original-Classic'
 font-name='SUSE Medium 11 @wght=500'
