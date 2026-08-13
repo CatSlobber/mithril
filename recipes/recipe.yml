@@ -21,12 +21,14 @@ modules:
       packages:
         - steam
       exclude:
+        - gnome-system-monitor
         - htop
         - nvtop
     remove:
       packages:
         - firefox
         - firefox-langpacks
+        - gnome-system-monitor
         - gnome-tour
         - gnome-classic-session
         - gnome-shell-extension-apps-menu
