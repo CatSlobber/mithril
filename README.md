@@ -32,14 +32,24 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Loupe
 - Pika Backup
 - Refine
+- Resources
 - Thunderbird
 
 ### Removals
 - native Fedora Firefox
+- Gnome Camera
+- Gnome Clocks
+- Gnome Contacts
+- Gnome Extensions
+- Gnome Weather
+- Gnome Maps
 - Gnome Tour
 - Gnome Help
 - Gnome Parental Controls
+- Gnome System Monitor
+- Fedora Media Writer
 - Fedora bundled Gnome extensions
+- htop & nvtop from upstream
 
 ### Further Planned Customizations
 - MediaShell Gnome extension (awaiting acceptance on EGO)
