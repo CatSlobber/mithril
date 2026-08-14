@@ -1,9 +1,9 @@
 # mithril &nbsp; [![bluebuild build badge](https://github.com/catslobber/mithril/actions/workflows/build.yml/badge.svg)](https://github.com/catslobber/mithril/actions/workflows/build.yml)
 
-A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, based on the uBlue silverblue-main-nvidia image.
+A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, based on the uBlue silverblue-main image.
 
 ### Gaming Additions
-- xone + nvidia akmods
+- xone akmod
 - Native Steam app
 
 ### UI Customizations
