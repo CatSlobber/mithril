@@ -24,16 +24,25 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Just Perfection
 
 ### Flatpaks from FlatHub
-- Celluloid
-- Extension Manager
+- Gnome Calculator
+- Gnome Characters
+- Gnome Disk Usage Analyzer
+- Document Viewer
+- Gnome Fonts
+- Gnome Logs
+- Gnome Image Viewer
+- Gnome Sushi
+- Gnome Text Editor
+- Pika Backup
 - Firefox
+- Thunderbird
+- Extension Manager
+- Flatseal
+- Refine
+- Celluloid
 - Folio
 - fooyin
-- Loupe
-- Pika Backup
-- Refine
 - Resources
-- Thunderbird
 
 ### Removals
 - native Fedora Firefox
