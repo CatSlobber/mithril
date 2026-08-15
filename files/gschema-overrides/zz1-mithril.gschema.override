@@ -2,12 +2,12 @@
 power-button-action='nothing'
 sleep-inactive-ac-type='nothing'
 
+[org.gnome.mutter]
+dynamic-workspaces=false
+
 [org.gnome.desktop.wm.preferences]
 num-workspaces=3
 button-layout='appmenu:minimize,maximize,close'
-
-[org.gnome.mutter]
-dynamic-workspaces=false
 
 [org.gnome.desktop.notifications]
 show-banners=false
@@ -50,6 +50,9 @@ show-hidden=true
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='medium'
+
+[org.gnome.nautilus.preferences]
+default-folder-viewer='list-view'
 
 [org.gnome.nautilus.list-view]
 default-visible-columns=['name', 'size', 'type', 'date_modified']
@@ -249,7 +252,6 @@ dot-size=3
 dot-style-focused='DASHES'
 dot-style-unfocused='DOTS'
 enter-peek-mode-timeout=500
-extension-version=73
 focus-highlight=false
 focus-highlight-color='#EEEEEE'
 focus-highlight-dominant=false
@@ -307,7 +309,7 @@ overview-click-to-exit=false
 panel-anchors='{"DEL-CJLYHV3":"MIDDLE"}'
 panel-context-menu-commands=@as []
 panel-context-menu-titles=@as []
-panel-element-positions='{"DEL-CJLYHV3":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"activitiesButton","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-element-positions='{"DEL-CJLYHV3":[{"element":"leftBox","visible":true,"position":"stackedTL"}], "SDC-0x00000000": [{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"activitiesButton","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
 panel-element-positions-monitors-sync=true
 panel-lengths='{}'
 panel-position='BOTTOM'
