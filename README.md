@@ -45,7 +45,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Resources
 
 ### Removals
-- native Fedora Firefox
+- Firefox (native)
 - Gnome Camera
 - Gnome Clocks
 - Gnome Contacts
@@ -58,12 +58,8 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Gnome System Monitor
 - Fedora Media Writer
 - Fedora bundled Gnome extensions
+- Fedora and Gnome default backgrounds
 - htop & nvtop from upstream
-
-### Further Planned Customizations
-- MediaShell Gnome extension (awaiting acceptance on EGO)
-- WhiteSur icon theme (awaiting addition of fooyin app icon)
-- custom distro icon and logo
 
 ## Installation
 
