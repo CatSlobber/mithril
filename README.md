@@ -18,6 +18,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - ArcMenu
 - Auto Move Windows
 - Blur my Shell
+- Caffeine
 - ChromaLeon
 - Compiz window effect
 - Dash to Panel
