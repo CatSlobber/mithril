@@ -4,7 +4,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 
 ### Gaming Additions
 - xone akmod
-- Native Steam app
+- Steam (native)
 
 ### UI Customizations
 - Fonts from Google
