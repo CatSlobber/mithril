@@ -216,6 +216,31 @@ application-list=['steam.desktop:3', 'org.fooyin.fooyin.desktop:2', 'org.mozilla
 [org.gnome.shell.extensions.blur-my-shell.panel]
 blur=false
 
+[org.gnome.shell.extensions.caffeine]
+cli-toggle=false
+countdown-timer=0
+duration-timer=2
+duration-timer-list='[900, 1800, 3600]'
+enable-fullscreen=true
+enable-mpris=false
+indicator-position=0
+indicator-position-index=0
+indicator-position-max=1
+inhibit-apps=@as []
+nightlight-control='never'
+prefs-default-height=590
+prefs-default-width=570
+restore-state=false
+screen-blank='never'
+show-indicator='only-active'
+show-notifications=true
+show-timer=true
+show-toggle=true
+toggle-shortcut=@as []
+trigger-apps-mode='on-running'
+use-custom-duration=false
+user-enabled=false
+
 [org.gnome.shell.extensions.dash-to-panel]
 activate-single-window=true
 animate-app-switch=true
