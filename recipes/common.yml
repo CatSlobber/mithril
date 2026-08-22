@@ -1,0 +1,90 @@
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: akmods
+    base: main
+    install:
+      - xone
+
+  - type: dnf
+    install:
+      packages:
+        - gnome-software-rpm-ostree
+      exclude:
+        - gnome-system-monitor
+        - htop
+        - nvtop
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+        - gnome-system-monitor
+        - gnome-tour
+        - gnome-classic-session
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-background-logo
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - f44-backgrounds-gnome
+        - fedora-workstation-backgrounds
+        - gnome-backgrounds
+        - malcontent-control
+        - yelp
+        - yelp-libs
+        - yelp-xsl
+        - htop
+        - nvtop
+
+  - type: gnome-extensions
+    install:
+      - 3628 # ArcMenu
+      - 16 # Auto Move Windows
+      - 3193 # Blur my Shell
+      - 517 # Caffeine
+      - 10070 # ChromaLeon
+      - 3210 # Compiz window effect
+      - 1160 # Dash to Panel
+      - 3843 # Just Perfection
+
+  - type: fonts
+    fonts:
+      google-fonts:
+        - SUSE
+        - Lato
+        - JetBrains Mono
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - org.gnome.Calculator
+          - org.gnome.Characters
+          - org.gnome.baobab
+          - org.gnome.Papers
+          - org.gnome.font-viewer
+          - org.gnome.Logs
+          - org.gnome.Loupe
+          - org.gnome.NautilusPreviewer
+          - org.gnome.TextEditor
+          - org.gnome.World.PikaBackup
+          - org.mozilla.firefox
+          - org.mozilla.thunderbird
+          - com.mattjakeman.ExtensionManager
+          - com.github.tchx84.Flatseal
+          - page.tesk.Refine
+          - io.github.celluloid_player.Celluloid
+          - com.toolstack.Folio
+          - org.fooyin.fooyin
+          - net.nokyan.Resources
+      - scope: user
+
+  - type: gschema-overrides
+    include:
+      - zz1-mithril.gschema.override
+
+  - type: signing
