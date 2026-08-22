@@ -82,6 +82,10 @@ modules:
           - org.fooyin.fooyin
           - net.nokyan.Resources
       - scope: user
+        install:
+          - org.musicbrainz.Picard
+          - io.github.CyberTimon.RapidRAW
+          - org.soundconverter.SoundConverter
 
   - type: gschema-overrides
     include:
