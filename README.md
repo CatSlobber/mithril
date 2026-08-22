@@ -14,7 +14,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - KDE Ocean sound theme
 - Bibata Original Classic cursors
 
-### Installed & Pre-configured Gnome Extensions
+### Installed & Preconfigured Gnome Extensions
 - ArcMenu
 - Auto Move Windows
 - Blur my Shell
