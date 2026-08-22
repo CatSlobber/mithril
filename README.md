@@ -64,9 +64,6 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 
 ## Installation
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
-
 To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
