@@ -6,7 +6,7 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 44
 
 modules:
-  - from-file: mithril.yml
+  - from-file: common.yml
 
   - type: akmods
     base: main
