@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Monterey Green</name>
+    <filename>/usr/share/backgrounds/monterey/monterey-green.png</filename>
+    <filename-dark>/usr/share/backgrounds/monterey/monterey-green.png</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0c6c9c</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>

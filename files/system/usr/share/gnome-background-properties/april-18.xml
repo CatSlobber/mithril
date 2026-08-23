@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>April 18</name>
+    <filename>/usr/share/backgrounds/gradients/april-18.png</filename>
+    <filename-dark>/usr/share/backgrounds/gradients/april-18.png</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#ff3d91</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
