@@ -24,7 +24,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   mithril-gaming:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril-gaming:latest
   ```
 - Reboot again to complete the installation
   ```
