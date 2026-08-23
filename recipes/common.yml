@@ -10,12 +10,6 @@ modules:
       - xone
 
   - type: dnf
-    install:
-      packages:
-      exclude:
-        - gnome-system-monitor
-        - htop
-        - nvtop
     remove:
       packages:
         - firefox
