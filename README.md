@@ -2,35 +2,6 @@
 
 A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, based on the uBlue silverblue-main and silverblue-nvidia images.
 
-## Installation
-
-To rebase an existing atomic Fedora installation to the latest build:
-
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril:latest
-  ```
-  or for the gaming variant:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril-gaming:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril:latest
-  ```
-  mithril-gaming:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril-gaming:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
-
 ### Gaming Additions
 - xone akmod
 - Steam (native) [mithril-gaming only]
@@ -95,6 +66,35 @@ To rebase an existing atomic Fedora installation to the latest build:
 - Fedora bundled Gnome extensions
 - Fedora and Gnome default backgrounds
 - htop & nvtop from upstream
+
+## Installation
+
+To rebase an existing atomic Fedora installation to the latest build:
+
+- First rebase to the unsigned image, to get the proper signing keys and policies installed:
+  ```
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril:latest
+  ```
+  or for the gaming variant:
+  ```
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril-gaming:latest
+  ```
+- Reboot to complete the rebase:
+  ```
+  systemctl reboot
+  ```
+- Then rebase to the signed image, like so:
+  ```
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril:latest
+  ```
+  mithril-gaming:
+  ```
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril-gaming:latest
+  ```
+- Reboot again to complete the installation
+  ```
+  systemctl reboot
+  ```
 
 ## Verification
 
