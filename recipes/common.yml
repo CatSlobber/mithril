@@ -12,7 +12,6 @@ modules:
   - type: dnf
     install:
       packages:
-        - gnome-software-rpm-ostree
       exclude:
         - gnome-system-monitor
         - htop
@@ -81,6 +80,7 @@ modules:
           - com.toolstack.Folio
           - org.fooyin.fooyin
           - net.nokyan.Resources
+          - io.github.kolunmi.Bazaar
       - scope: user
         install:
           - org.musicbrainz.Picard
