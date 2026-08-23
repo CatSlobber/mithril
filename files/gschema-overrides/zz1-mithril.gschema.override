@@ -38,8 +38,8 @@ font-hinting='none'
 font-antialiasing='grayscale'
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/monterey/Monterey Purple.png'
-picture-uri-dark='file:///usr/share/backgrounds/monterey/Monterey Dark Purple.png'
+picture-uri='file:///usr/share/backgrounds/monterey/monterey-dark-purple.png'
+picture-uri-dark='file:///usr/share/backgrounds/monterey/monterey-dark-purple.png'
 
 [org.gtk.settings.file-chooser]
 clock-format='12h'
