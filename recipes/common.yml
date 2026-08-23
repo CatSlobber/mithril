@@ -16,6 +16,8 @@ modules:
         - firefox-langpacks
         - gnome-system-monitor
         - gnome-tour
+        - gnome-software
+        - gnome-software-rpm-ostree
         - gnome-classic-session
         - gnome-shell-extension-apps-menu
         - gnome-shell-extension-background-logo
