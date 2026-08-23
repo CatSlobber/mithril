@@ -73,6 +73,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 - Folio
 - fooyin
 - Resources
+- Bazaar
 - MusicBrainz Picard (installed as user)
 - SoundConverter (installed as user)
 - RapidRAW (installed as user)
@@ -89,6 +90,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 - Gnome Help
 - Gnome Parental Controls
 - Gnome System Monitor
+- Gnome Software
 - Fedora Media Writer
 - Fedora bundled Gnome extensions
 - Fedora and Gnome default backgrounds
