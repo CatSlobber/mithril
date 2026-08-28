@@ -48,7 +48,7 @@ modules:
   - type: fonts
     fonts:
       google-fonts:
-        - SUSE
+        - Rubik
         - Lato
         - JetBrains Mono
 
