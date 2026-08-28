@@ -31,7 +31,7 @@ clock-format='12h'
 enable-hot-corners=false
 color-scheme='prefer-dark'
 cursor-theme='Bibata-Original-Classic'
-font-name='SUSE Medium 11 @wght=500'
+font-name='Rubik 11 @wght=400'
 document-font-name='Lato 12'
 monospace-font-name='JetBrains Mono 11'
 font-hinting='none'
