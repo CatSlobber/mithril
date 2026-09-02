@@ -51,10 +51,8 @@ modules:
         - IBM Plex Sans
         - JetBrains Mono
         - Lato
-        - Libre Franklin
         - Roboto Mono
         - Rubik
-        - SUSE
 
   - type: default-flatpaks
     configurations:
