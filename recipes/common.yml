@@ -53,6 +53,7 @@ modules:
         - Lato
         - Roboto Mono
         - Rubik
+        - SUSE
 
   - type: default-flatpaks
     configurations:
