@@ -34,7 +34,7 @@ cursor-theme='Bibata-Original-Classic'
 font-name='SUSE 11 Medium @wght=500'
 document-font-name='Lato 12'
 monospace-font-name='JetBrains Mono 11'
-font-hinting='slight'
+font-hinting='none'
 font-antialiasing='grayscale'
 
 [org.gnome.desktop.background]
