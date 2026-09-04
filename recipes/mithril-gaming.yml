@@ -12,3 +12,10 @@ modules:
     install:
       packages:
         - steam
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - com.heroicgameslauncher.hgl
