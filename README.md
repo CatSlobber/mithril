@@ -5,6 +5,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 ### Gaming Additions
 - xone akmod
 - Steam (native) [mithril-gaming only]
+- Heroic Launcher [mithril-gaming only]
 
 ### UI Customizations
 - Fonts from Google
