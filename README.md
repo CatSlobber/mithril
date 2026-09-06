@@ -2,11 +2,6 @@
 
 A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, based on the uBlue silverblue-main and silverblue-nvidia images.
 
-### Gaming Additions
-- xone akmod
-- Steam (native) [mithril-gaming only]
-- Heroic Launcher [mithril-gaming only]
-
 ### UI Customizations
 - Fonts from Google
 - Custom wallpapers
@@ -68,32 +63,34 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Fedora and Gnome default backgrounds
 - htop & nvtop from upstream
 
+### Gaming Additions
+- xone akmod
+- Steam (native) [mithril-gaming only]
+- Heroic Launcher [mithril-gaming only]
+
 ## Installation
 
 To rebase an existing atomic Fedora installation to the latest build:
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
+- First rebase to the unsigned image, to get the proper signing keys and policies installed and reboot:
   ```
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril:latest
+  systemctl reboot
   ```
   or for the gaming variant:
   ```
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril-gaming:latest
-  ```
-- Reboot to complete the rebase:
-  ```
   systemctl reboot
   ```
-- Then rebase to the signed image, like so:
+
+- Then rebase to the signed image, and reboot again to complete the installation:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril:latest
+  systemctl reboot
   ```
   mithril-gaming:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril-gaming:latest
-  ```
-- Reboot again to complete the installation
-  ```
   systemctl reboot
   ```
 
