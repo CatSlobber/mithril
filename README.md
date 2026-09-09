@@ -62,7 +62,6 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Fedora Media Writer
 - Fedora bundled Gnome extensions
 - Fedora and Gnome default backgrounds
-- htop & nvtop from upstream
 
 ### Gaming Additions
 - xone akmod
