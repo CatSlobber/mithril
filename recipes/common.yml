@@ -10,6 +10,10 @@ modules:
       - xone
 
   - type: dnf
+    install:
+      packages:
+        - iproute
+      
     remove:
       packages:
         - firefox
@@ -33,6 +37,7 @@ modules:
         - yelp-xsl
         - htop
         - nvtop
+        - net-tools
 
   - type: gnome-extensions
     install:
