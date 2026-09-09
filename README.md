@@ -41,6 +41,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - fooyin
 - Resources
 - Bazaar
+- LibreOffice (installed as user)
 - MusicBrainz Picard (installed as user)
 - SoundConverter (installed as user)
 - RapidRAW (installed as user)
