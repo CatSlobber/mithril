@@ -45,16 +45,6 @@ modules:
       - 1160 # Dash to Panel
       - 3843 # Just Perfection
 
-  - type: fonts
-    fonts:
-      google-fonts:
-        - IBM Plex Sans
-        - JetBrains Mono
-        - Lato
-        - Roboto Mono
-        - Rubik
-        - SUSE
-
   - type: default-flatpaks
     configurations:
       - notify: true
