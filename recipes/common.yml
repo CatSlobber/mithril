@@ -82,6 +82,7 @@ modules:
           - io.github.kolunmi.Bazaar
       - scope: user
         install:
+          - org.libreoffice.LibreOffice
           - org.musicbrainz.Picard
           - io.github.CyberTimon.RapidRAW
           - org.soundconverter.SoundConverter
