@@ -23,3 +23,6 @@ modules:
         scope: system
         install:
           - com.heroicgameslauncher.hgl
+          - org.musicbrainz.Picard
+          - io.github.CyberTimon.RapidRAW
+          - org.soundconverter.SoundConverter
