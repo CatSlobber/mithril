@@ -21,6 +21,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Just Perfection
 
 ### Flatpaks from FlatHub
+- Gnome Boxes
 - Gnome Calculator
 - Gnome Characters
 - Gnome Disk Usage Analyzer
