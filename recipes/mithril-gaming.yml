@@ -12,6 +12,10 @@ modules:
     install:
       packages:
         - steam
+        
+  - type: gnome-extensions
+    install:
+      - 517 # Caffeine        
 
   - type: default-flatpaks
     configurations:
