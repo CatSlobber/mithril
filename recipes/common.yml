@@ -10,10 +10,6 @@ modules:
       - xone
 
   - type: dnf
-    install:
-      packages:
-        - iproute
-      
     remove:
       packages:
         - firefox
@@ -86,12 +82,7 @@ modules:
           - org.fooyin.fooyin
           - net.nokyan.Resources
           - io.github.kolunmi.Bazaar
-      - scope: user
-        install:
           - org.libreoffice.LibreOffice
-          - org.musicbrainz.Picard
-          - io.github.CyberTimon.RapidRAW
-          - org.soundconverter.SoundConverter
 
   - type: gschema-overrides
     include:
