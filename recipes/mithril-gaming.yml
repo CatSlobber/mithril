@@ -18,4 +18,5 @@ modules:
       - notify: true
         scope: system
         install:
+          - org.gnome.Boxes
           - com.heroicgameslauncher.hgl
