@@ -39,6 +39,17 @@ modules:
         - nvtop
         - net-tools
 
+  - type: fonts
+    fonts:
+      google-fonts:
+        - IBM Plex Sans
+        - IBM Plex Serif
+        - JetBrains Mono
+        - Lato
+        - Roboto Mono
+        - Rubik
+        - SUSE
+
   - type: gnome-extensions
     install:
       - 3628 # ArcMenu
