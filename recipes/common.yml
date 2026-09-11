@@ -55,6 +55,7 @@ modules:
       - notify: true
         scope: system
         install:
+          - org.gnome.Boxes
           - org.gnome.Calculator
           - org.gnome.Characters
           - org.gnome.baobab
