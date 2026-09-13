@@ -83,6 +83,10 @@ modules:
           - io.github.kolunmi.Bazaar
           - org.libreoffice.LibreOffice
 
+  - type: script
+    scripts:
+      - install-appimage-thumbnailer.sh
+
   - type: gschema-overrides
     include:
       - zz1-mithril.gschema.override
