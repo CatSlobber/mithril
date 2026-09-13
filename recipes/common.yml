@@ -5,7 +5,7 @@ modules:
         destination: /
 
   - type: akmods
-    base: common
+    base: main
     install:
       - xone
 
