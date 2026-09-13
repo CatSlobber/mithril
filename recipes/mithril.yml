@@ -5,5 +5,8 @@ description: A streamlined modification of Fedora Silverblue.
 base-image: ghcr.io/blue-build/base-images/fedora-silverblue
 image-version: latest
 
+platforms:
+  - linux/amd64
+
 modules:
   - from-file: common.yml
