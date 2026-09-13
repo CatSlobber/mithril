@@ -3,7 +3,7 @@
 name: mithril
 description: A streamlined modification of Fedora Silverblue.
 base-image: ghcr.io/blue-build/base-images/fedora-silverblue
-image-version: 44
+image-version: latest
 
 modules:
   - from-file: common.yml
