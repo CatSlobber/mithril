@@ -5,6 +5,9 @@ description: A modification of Fedora Silverblue, streamlined for gaming and gen
 base-image: ghcr.io/blue-build/base-images/fedora-silverblue-nvidia
 image-version: latest
 
+platforms:
+  - linux/amd64
+
 modules:
   - from-file: common.yml
 
