@@ -1,3 +1,6 @@
+platforms:
+  - linux/amd64
+
 modules:
   - type: files
     files:
