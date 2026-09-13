@@ -15,7 +15,7 @@ modules:
         
   - type: gnome-extensions
     install:
-      - 517 # Caffeine        
+      - 517 # Caffeine
 
   - type: default-flatpaks
     configurations:
