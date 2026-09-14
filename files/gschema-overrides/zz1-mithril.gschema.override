@@ -6,7 +6,7 @@ sleep-inactive-ac-type='nothing'
 dynamic-workspaces=false
 
 [org.gnome.desktop.wm.preferences]
-num-workspaces=3
+num-workspaces=2
 button-layout='appmenu:minimize,maximize,close'
 
 [org.gnome.desktop.notifications]
@@ -38,8 +38,8 @@ font-hinting='none'
 font-antialiasing='grayscale'
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/monterey/monterey-dark-purple.png'
-picture-uri-dark='file:///usr/share/backgrounds/monterey/monterey-dark-purple.png'
+picture-uri='file:///usr/share/backgrounds/monterey/monterey-dark-blue.png'
+picture-uri-dark='file:///usr/share/backgrounds/monterey/monterey-dark-blue.png'
 
 [org.gtk.settings.file-chooser]
 clock-format='12h'
@@ -208,35 +208,10 @@ zest-layout-extra-shortcuts=[{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'Arc
 zest-layout-panel-width=225
 
 [org.gnome.shell.extensions.auto-move-windows]
-application-list=['steam.desktop:3', 'org.fooyin.fooyin.desktop:2', 'org.mozilla.firefox.desktop:1', 'org.gnome.Nautilus.desktop:1', 'com.toolstack.Folio.desktop:1']
+application-list=['org.gnome.Nautilus.desktop:1', 'org.mozilla.firefox.desktop:1', 'com.toolstack.Folio.desktop:1' 'org.fooyin.fooyin.desktop:2']
 
 [org.gnome.shell.extensions.blur-my-shell.panel]
 blur=false
-
-[org.gnome.shell.extensions.caffeine]
-cli-toggle=false
-countdown-timer=0
-duration-timer=2
-duration-timer-list=[900, 1800, 3600]
-enable-fullscreen=true
-enable-mpris=false
-indicator-position=0
-indicator-position-index=0
-indicator-position-max=1
-inhibit-apps=@as []
-nightlight-control='never'
-prefs-default-height=590
-prefs-default-width=570
-restore-state=false
-screen-blank='never'
-show-indicator='only-active'
-show-notifications=true
-show-timer=true
-show-toggle=true
-toggle-shortcut=@as []
-trigger-apps-mode='on-running'
-use-custom-duration=false
-user-enabled=false
 
 [org.gnome.shell.extensions.dash-to-panel]
 activate-single-window=true
@@ -499,7 +474,7 @@ workspaces-in-app-grid=false
 world-clock=false
 
 [org.gnome.shell.extensions.chromaleon]
-accent-color='#3c0c6c'
+accent-color='#347ee5'
 create-shortcut=false
 custom-color=true
 custom-css=false
