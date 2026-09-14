@@ -16,8 +16,8 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Blur my Shell
 - ChromaLeon
 - Compiz window effect
-- Dash to Panel
 - Just Perfection
+- Simple Taskbar
 
 ### Flatpaks from FlatHub
 - Gnome Boxes
