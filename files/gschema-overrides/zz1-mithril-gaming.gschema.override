@@ -11,7 +11,7 @@ picture-uri='file:///usr/share/backgrounds/monterey/monterey-dark-purple.png'
 picture-uri-dark='file:///usr/share/backgrounds/monterey/monterey-dark-purple.png'
 
 [org.gnome.shell.extensions.auto-move-windows]
-application-list=['org.gnome.Nautilus.desktop:1', 'org.mozilla.firefox.desktop:1', 'com.toolstack.Folio.desktop:1' 'org.fooyin.fooyin.desktop:2', 'steam.desktop:3', 'com.heroicgameslauncher.hgl.desktop:3']
+application-list=['org.gnome.Nautilus.desktop:1', 'org.mozilla.firefox.desktop:1', 'com.toolstack.Folio.desktop:1', 'org.fooyin.fooyin.desktop:2', 'steam.desktop:3', 'com.heroicgameslauncher.hgl.desktop:3']
 
 [org.gnome.shell.extensions.caffeine]
 cli-toggle=true
