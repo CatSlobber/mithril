@@ -30,7 +30,6 @@ modules:
           - io.github.CyberTimon.RapidRAW
           - org.soundconverter.SoundConverter
 
-
   - type: gschema-overrides
     include:
       - zz1-mithril-gaming.gschema.override
