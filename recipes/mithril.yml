@@ -10,3 +10,7 @@ platforms:
 
 modules:
   - from-file: common.yml
+
+  - type: gschema-overrides
+    include:
+      - zz1-mithril.gschema.override
