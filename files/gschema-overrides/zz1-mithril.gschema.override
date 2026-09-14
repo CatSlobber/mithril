@@ -11,7 +11,7 @@ picture-uri='file:///usr/share/backgrounds/monterey/monterey-dark-blue.png'
 picture-uri-dark='file:///usr/share/backgrounds/monterey/monterey-dark-blue.png'
 
 [org.gnome.shell.extensions.auto-move-windows]
-application-list=['org.gnome.Nautilus.desktop:1', 'org.mozilla.firefox.desktop:1', 'com.toolstack.Folio.desktop:1' 'org.fooyin.fooyin.desktop:2']
+application-list=['org.gnome.Nautilus.desktop:1', 'org.mozilla.firefox.desktop:1', 'com.toolstack.Folio.desktop:1', 'org.fooyin.fooyin.desktop:2']
 
 [org.gnome.shell.extensions.chromaleon]
 accent-color='#347ee5'
