@@ -14,7 +14,7 @@ picture-uri-dark='file:///usr/share/backgrounds/monterey/monterey-dark-purple.pn
 application-list=['org.gnome.Nautilus.desktop:1', 'org.mozilla.firefox.desktop:1', 'com.toolstack.Folio.desktop:1', 'org.fooyin.fooyin.desktop:2', 'steam.desktop:3', 'com.heroicgameslauncher.hgl.desktop:3']
 
 [org.gnome.shell.extensions.caffeine]
-cli-toggle=true
+cli-toggle=false
 countdown-timer=0
 duration-timer=2
 duration-timer-list=[900, 1800, 3600]
@@ -29,7 +29,7 @@ prefs-default-height=590
 prefs-default-width=570
 restore-state=false
 screen-blank='never'
-show-indicator='only-active'
+show-indicator='always'
 show-notifications=true
 show-timer=true
 show-toggle=true
