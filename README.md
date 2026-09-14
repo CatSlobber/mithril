@@ -11,6 +11,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Bibata Original Classic cursors
 
 ### Installed & Preconfigured Gnome Extensions
+- Advanced Media Controller
 - ArcMenu
 - Auto Move Windows
 - Blur my Shell
