@@ -9,8 +9,8 @@ platforms:
   - linux/amd64
 
 modules:
+  - from-file: common.yml
+
   - type: gschema-overrides
     include:
       - zz1-mithril.gschema.override
-  
-  - from-file: common.yml
