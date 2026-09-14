@@ -48,6 +48,7 @@ modules:
   - type: gnome-extensions
     install:
       - 3628 # ArcMenu
+      - 9184 # Advanced Media Controller
       - 16 # Auto Move Windows
       - 3193 # Blur my Shell
       - 10070 # ChromaLeon
