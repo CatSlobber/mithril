@@ -52,8 +52,8 @@ modules:
       - 3193 # Blur my Shell
       - 10070 # ChromaLeon
       - 3210 # Compiz window effect
-      - 1160 # Dash to Panel
       - 3843 # Just Perfection
+      - 10448 # Simple Taskbar
 
   - type: default-flatpaks
     configurations:
