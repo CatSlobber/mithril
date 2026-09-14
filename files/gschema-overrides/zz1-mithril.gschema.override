@@ -207,9 +207,6 @@ windows-show-pinned-apps=true
 zest-layout-extra-shortcuts=[{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'ArcMenu_Home'}, {'id': 'ArcMenu_Documents', 'name': 'Documents', 'icon': 'ArcMenu_Documents'}, {'id': 'ArcMenu_Downloads', 'name': 'Downloads', 'icon': 'ArcMenu_Downloads'}, {'id': 'ArcMenu_Music', 'name': 'Music', 'icon': 'ArcMenu_Music'}, {'id': 'ArcMenu_Pictures', 'name': 'Pictures', 'icon': 'ArcMenu_Pictures'}, {'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'org.gnome.Terminal.desktop'}]
 zest-layout-panel-width=225
 
-[org.gnome.shell.extensions.arcmenu.pinned-apps-folders]
-pinned-apps=@aa{ss} []
-
 [org.gnome.shell.extensions.auto-move-windows]
 application-list=['steam.desktop:3', 'org.fooyin.fooyin.desktop:2', 'org.mozilla.firefox.desktop:1', 'org.gnome.Nautilus.desktop:1', 'com.toolstack.Folio.desktop:1']
 
