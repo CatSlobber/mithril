@@ -14,7 +14,6 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - ArcMenu
 - Auto Move Windows
 - Blur my Shell
-- Caffeine [mithril-gaming only]
 - ChromaLeon
 - Compiz window effect
 - Dash to Panel
@@ -66,8 +65,10 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 
 ### Gaming Additions
 - xone akmod
+- Nvidia akmod [mithril-gaming only]
 - Steam (native) [mithril-gaming only]
 - Heroic Launcher [mithril-gaming only]
+- Caffeine extension [mithril-gaming only]
 
 ## Installation
 
