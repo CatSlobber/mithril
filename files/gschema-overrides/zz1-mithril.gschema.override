@@ -18,7 +18,7 @@ remember-recent-files=false
 
 [org.gnome.shell]
 enabled-extensions=['blur-my-shell@aunetx', 'compiz-windows-effect@hermes83.github.com', 'dash-to-panel@jderose9.github.com', 'just-perfection-desktop@just-perfection', 'arcmenu@arcmenu.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'user-accent-colors@fabito02']
-favorite-apps=['org.Gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop', 'steam.desktop']
+favorite-apps=['org.Gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop']
 
 [org.gnome.desktop.sound]
 theme-name='Ocean'
