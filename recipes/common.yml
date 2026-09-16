@@ -37,10 +37,14 @@ modules:
   - type: fonts
     fonts:
       google-fonts:
+        - DM Serif Display
+        - Fraunces
         - IBM Plex Sans
-        - IBM Plex Serif
+        - Instrument Sans
         - JetBrains Mono
         - Lato
+        - Newsreader
+        - Oxygen
         - Roboto Mono
         - Rubik
         - SUSE
@@ -61,28 +65,28 @@ modules:
       - notify: true
         scope: system
         install:
+          - org.gnome.baobab
+          - io.github.kolunmi.Bazaar
           - org.gnome.Boxes
           - org.gnome.Calculator
+          - io.github.celluloid_player.Celluloid
           - org.gnome.Characters
-          - org.gnome.baobab
-          - org.gnome.Papers
+          - org.onlyoffice.desktopeditors
+          - com.mattjakeman.ExtensionManager
+          - org.mozilla.firefox
+          - com.github.tchx84.Flatseal
+          - com.toolstack.Folio
           - org.gnome.font-viewer
+          - org.fooyin.fooyin
           - org.gnome.Logs
           - org.gnome.Loupe
           - org.gnome.NautilusPreviewer
-          - org.gnome.TextEditor
+          - org.gnome.Papers
           - org.gnome.World.PikaBackup
-          - org.mozilla.firefox
-          - org.mozilla.thunderbird
-          - com.mattjakeman.ExtensionManager
-          - com.github.tchx84.Flatseal
           - page.tesk.Refine
-          - io.github.celluloid_player.Celluloid
-          - com.toolstack.Folio
-          - org.fooyin.fooyin
           - net.nokyan.Resources
-          - io.github.kolunmi.Bazaar
-          - org.libreoffice.LibreOffice
+          - org.gnome.TextEditor
+          - org.mozilla.thunderbird
 
   - type: script
     scripts:
