@@ -82,7 +82,9 @@ modules:
           - org.gnome.Loupe
           - org.gnome.NautilusPreviewer
           - org.gnome.Papers
+          - org.gnome.seahorse.Application
           - org.gnome.World.PikaBackup
+          - io.github.CyberTimon.RapidRAW
           - page.tesk.Refine
           - net.nokyan.Resources
           - org.gnome.TextEditor
