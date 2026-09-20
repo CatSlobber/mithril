@@ -35,7 +35,16 @@ modules:
         - yelp-libs
         - yelp-xsl
         - htop
+        - net-tools
         - nvtop
+        - openrgb-udev-rules
+        - oversteer-udev
+        - pam-u2f
+        - pam_yubico
+        - pamu2fcfg
+        - traceroute
+        - vim
+        - yubikey-manager
 
   - type: fonts
     fonts:
