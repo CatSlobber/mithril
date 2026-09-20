@@ -10,6 +10,9 @@ modules:
       - xone
 
   - type: dnf
+    install:
+      packages:
+        - gnome-boxes
     remove:
       packages:
         - firefox
@@ -67,7 +70,6 @@ modules:
         install:
           - org.gnome.baobab
           - io.github.kolunmi.Bazaar
-          - org.gnome.Boxes
           - org.gnome.Calculator
           - io.github.celluloid_player.Celluloid
           - org.gnome.Characters
