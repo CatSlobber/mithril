@@ -21,7 +21,6 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Simple Taskbar
 
 ### Flatpaks from FlatHub
-- Gnome Boxes
 - Gnome Calculator
 - Gnome Characters
 - Gnome Disk Usage Analyzer
@@ -33,10 +32,10 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Gnome Text Editor
 - Pika Backup
 - Firefox
-- Thunderbird
 - Extension Manager
 - Flatseal
 - Refine
+- Convey
 - Celluloid
 - Folio
 - fooyin
@@ -46,6 +45,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - MusicBrainz Picard
 - SoundConverter
 - RapidRAW
+- Virtual Machine Manager
 
 ### Removals
 - Firefox (native)
