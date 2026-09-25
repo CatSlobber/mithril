@@ -12,7 +12,10 @@ modules:
   - type: dnf
     install:
       packages:
-        - gnome-boxes
+        - libvirt
+        - libvirt-client
+        - libvirt-nss
+        - virt-manager
     remove:
       packages:
         - firefox
