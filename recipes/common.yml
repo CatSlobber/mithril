@@ -82,6 +82,7 @@ modules:
           - org.gnome.Calculator
           - io.github.celluloid_player.Celluloid
           - org.gnome.Characters
+          - net.donnybeelo.Convey
           - org.onlyoffice.desktopeditors
           - com.mattjakeman.ExtensionManager
           - org.mozilla.firefox
@@ -99,7 +100,6 @@ modules:
           - page.tesk.Refine
           - net.nokyan.Resources
           - org.gnome.TextEditor
-          - org.mozilla.thunderbird
 
   - type: script
     scripts:
