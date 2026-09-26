@@ -6,7 +6,6 @@ sleep-inactive-ac-type='nothing'
 dynamic-workspaces=false
 
 [org.gnome.desktop.wm.preferences]
-num-workspaces=2
 button-layout='appmenu:minimize,maximize,close'
 
 [org.gnome.desktop.notifications]
