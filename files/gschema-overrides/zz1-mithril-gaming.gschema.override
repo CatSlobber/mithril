@@ -1,6 +1,5 @@
 [org.gnome.desktop.wm.preferences]
 num-workspaces=3
-button-layout='appmenu:minimize,maximize,close'
 
 [org.gnome.shell]
 enabled-extensions=['advanced-media-controller@sanjai.com', 'arcmenu@arcmenu.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info', 'user-accent-colors@fabito02', 'compiz-windows-effect@hermes83.github.com', 'just-perfection-desktop@just-perfection', 'simple-taskbar@sultech']
