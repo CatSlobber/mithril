@@ -54,15 +54,11 @@ modules:
       google-fonts:
         - DM Serif Display
         - Fraunces
-        - IBM Plex Sans
-        - Instrument Sans
         - JetBrains Mono
         - Lato
         - Newsreader
-        - Oxygen
+        - Public Sans
         - Roboto Mono
-        - Rubik
-        - SUSE
 
   - type: gnome-extensions
     install:
