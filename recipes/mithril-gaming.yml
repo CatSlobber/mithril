@@ -11,6 +11,11 @@ platforms:
 modules:
   - from-file: common.yml
 
+  - type: akmods
+    base: main
+    install:
+      - nvidia-open
+
   - type: dnf
     install:
       packages:
