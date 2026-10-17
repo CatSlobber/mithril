@@ -61,7 +61,6 @@ modules:
         - Newsreader
         - Public Sans
         - Roboto Mono
-        - Rubik
 
   - type: gnome-extensions
     install:
