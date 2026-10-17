@@ -88,7 +88,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
   sudo bluebuild generate-iso --iso-name mithril-gaming-44-x64.iso image ghcr.io/catslobber/mithril-gaming
   ```
 
-###Rebase an existing atomic Fedora installation
+### Rebase an existing atomic Fedora installation
 
 - Rebase to the unsigned image to get the proper signing keys and policies installed and reboot:
   ```
