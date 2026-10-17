@@ -104,6 +104,7 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 - Then rebase to the signed image and reboot again to complete the installation:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril:latest
+  systemctl reboot
   ```
   mithril-gaming:
   ```
