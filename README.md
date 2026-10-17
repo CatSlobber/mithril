@@ -73,9 +73,24 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 
 ## Installation
 
-To rebase an existing atomic Fedora installation to the latest build:
+### Create a bootable ISO
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed and reboot:
+- Install the bluebuild CLI app:
+  ```
+  bash <(curl -s https://raw.githubusercontent.com/blue-build/cli/main/install.sh)
+  ```
+- Generate an ISO from a published package
+  ```
+  sudo bluebuild generate-iso --iso-name mithril-44-x64.iso image ghcr.io/catslobber/mithril
+  ```
+  or for the gaming variant:
+  ```
+  sudo bluebuild generate-iso --iso-name mithril-gaming-44-x64.iso image ghcr.io/catslobber/mithril-gaming
+  ```
+
+###Rebase an existing atomic Fedora installation
+
+- Rebase to the unsigned image to get the proper signing keys and policies installed and reboot:
   ```
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril:latest
   systemctl reboot
