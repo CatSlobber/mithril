@@ -81,11 +81,11 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
   ```
 - Generate an ISO from a published package:
   ```
-  bluebuild generate-iso --iso-name mithril-44-x64.iso image ghcr.io/catslobber/mithril:latest
+  sudo bluebuild generate-iso --iso-name mithril-44-x64.iso image ghcr.io/catslobber/mithril:latest
   ```
   or for the gaming variant:
   ```
-  bluebuild generate-iso --iso-name mithril-gaming-44-x64.iso image ghcr.io/catslobber/mithril-gaming:latest
+  sudo bluebuild generate-iso --iso-name mithril-gaming-44-x64.iso image ghcr.io/catslobber/mithril-gaming:latest
   ```
 
 ### Rebase an existing atomic Fedora installation
