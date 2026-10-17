@@ -54,11 +54,14 @@ modules:
       google-fonts:
         - DM Serif Display
         - Fraunces
+        - Inter
+        - Inter Tight
         - JetBrains Mono
         - Lato
         - Newsreader
         - Public Sans
         - Roboto Mono
+        - Rubik
 
   - type: gnome-extensions
     install:
