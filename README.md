@@ -116,6 +116,6 @@ A [Blue Build](https://blue-build.org/) customization of Fedora Silverblue 44, b
 
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
-```
-cosign verify --key cosign.pub ghcr.io/catslobber/mithril
-```
+  ```
+  cosign verify --key cosign.pub ghcr.io/catslobber/mithril
+  ```
