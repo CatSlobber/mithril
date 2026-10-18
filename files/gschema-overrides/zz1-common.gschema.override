@@ -2,9 +2,6 @@
 power-button-action='nothing'
 sleep-inactive-ac-type='nothing'
 
-[org.gnome.mutter]
-dynamic-workspaces=false
-
 [org.gnome.desktop.wm.preferences]
 button-layout='appmenu:minimize,maximize,close'
 
