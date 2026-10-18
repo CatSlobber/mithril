@@ -10,6 +10,14 @@ modules:
       - xone
 
   - type: dnf
+    repos:
+      copr:
+      - peterwu/rendezvous
+    install:
+      packages:
+        - bibata-cursor-themes
+
+  - type: dnf
     install:
       packages:
         - bibata-cursor-theme
