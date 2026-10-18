@@ -12,6 +12,7 @@ modules:
   - type: dnf
     install:
       packages:
+        - bibata-cursor-theme
         - libvirt
         - libvirt-client
         - libvirt-nss
