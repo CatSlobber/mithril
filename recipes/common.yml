@@ -15,6 +15,7 @@ modules:
         - libvirt
         - libvirt-client
         - libvirt-nss
+        - ocean-sound-theme
         - virt-manager
     remove:
       packages:
