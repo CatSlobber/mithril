@@ -561,7 +561,6 @@ start-menu-follow-panel-transparency=false
 start-menu-hide-pinned-app-titles=true
 start-menu-monitor-centered=true
 start-menu-open-all-apps=false
-start-menu-pinned-apps=@as[]
 start-menu-power-options-enabled=true
 start-menu-recommended-apps=true
 start-menu-running-indicators=true
