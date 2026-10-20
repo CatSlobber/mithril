@@ -16,7 +16,7 @@ show-in-lock-screen=false
 remember-recent-files=false
 
 [org.gnome.desktop.sound]
-theme-name='Ocean'
+theme-name='ocean'
 
 [org.gnome.settings-daemon.plugins.media-keys]
 volume-step=3
