@@ -1,5 +1,5 @@
 [org.gnome.shell]
-always-show-log-out=true
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop']
 
 [org.gnome.settings-daemon.plugins.power]
 power-button-action='nothing'
