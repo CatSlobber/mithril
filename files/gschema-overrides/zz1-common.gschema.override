@@ -258,7 +258,9 @@ pinned-apps=@aa{ss} []
 blur=false
 
 [org.gnome.shell.extensions.blur-my-shell.popup]
-static-blur=true
+preserve-shell-theme=true
+static-blur=false
+style-popup=3
 
 [org.gnome.shell.extensions.simple-taskbar]
 active-dock-axis='horizontal'
