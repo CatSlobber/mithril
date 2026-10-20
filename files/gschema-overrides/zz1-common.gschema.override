@@ -602,7 +602,6 @@ windows-10-theme-enabled=false
 windows-start-menu-enabled=false
 windows-xp-mode-settings={'icon-size': <16>, 'use-pinned-apps-as-launchers': <true>, 'show-location-separator': <false>, 'app-alignment': <'left'>, 'transparency-enabled': <false>, 'panel-height': <30>, 'task-manager-app': <'net.nokyan.Resources.desktop'>, 'panel-theme-follow-system': <false>, 'panel-position': <'bottom'>, 'panel-item-order': <['start-button', 'left-box', 'activities', 'show-desktop', 'center-box', 'right-box', 'applications', 'folder-menu', 'tray-overflow', 'system-menu', 'clock']>, 'icon-spacing': <-5>, 'combine-app-buttons-mode': <'when-full'>, 'start-menu-displaced-overlay-key': <['Super_L']>, 'panel-button-padding': <0>, 'start-button-position': <'left'>, 'activities-button-visible': <false>, 'show-desktop-button-position': <'left'>, 'start-menu-running-indicators': <false>}
 windows-xp-mode-settings-saved=true
-windows-xp-previous-mode='taskbar'
 windows-xp-show-desktop-position=0
 windows-xp-theme-enabled=false
 workspace-scroll-action='do-nothing'
