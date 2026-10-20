@@ -113,10 +113,6 @@ modules:
           - net.nokyan.Resources
           - org.gnome.TextEditor
 
-  - type: script
-    scripts:
-      - install-appimage-thumbnailer.sh
-
   - type: gschema-overrides
     include:
       - zz1-common.gschema.override
