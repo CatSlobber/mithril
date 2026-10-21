@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Mithril Update
 Type=Application
-Icon=system-software-update
+Icon=/usr/share/icons/mithril-update.svg
 Terminal=false
 Exec=ptyxis -x /usr/bin/mithril-update.sh
