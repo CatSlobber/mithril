@@ -1,6 +1,4 @@
 [com/toolstack/Folio]
-notes-dir='/var/home/catslobber/.var/app/com.toolstack.Folio/data'
-trash-dir='/var/home/catslobber/.var/app/com.toolstack.Folio/data'
 note-font='Public Sans 11'
 note-font-monospace='JetBrains Mono 11'
 long-note-names-handling=0
