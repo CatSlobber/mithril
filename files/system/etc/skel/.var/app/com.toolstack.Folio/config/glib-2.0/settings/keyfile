@@ -1,0 +1,14 @@
+[com/toolstack/Folio]
+notes-dir='/var/home/catslobber/.var/app/com.toolstack.Folio/data'
+trash-dir='/var/home/catslobber/.var/app/com.toolstack.Folio/data'
+note-font='Public Sans 11'
+note-font-monospace='JetBrains Mono 11'
+long-note-names-handling=0
+enable-3-pane=false
+theme-oled=false
+toolbar-enabled=true
+cheatsheet-enabled=false
+enable-autosave=true
+line-spacing='1.5'
+note-max-width=-1
+url-detection-level=2
