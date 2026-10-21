@@ -6,5 +6,4 @@ BOLD='\033[1m'
 RESET='\033[0m'
 OS_NAME=$(grep '^PRETTY_NAME=' /etc/os-release | cut -d= -f2 | tr -d '"')
 
-echo -e This system is running ${PURPLE}${BOLD}${OS_NAME}${RESET}
-echo -e To update the system, enter: ${BLUE}${BOLD}ujust update${RESET}
+echo -e ${BLUE}This system is running${RESET} ${PURPLE}${BOLD}${OS_NAME}${RESET}
