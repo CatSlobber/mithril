@@ -30,6 +30,7 @@ jobs:
           - mithril.yml
           - mithril-basic.yml
           - mithril-gaming.yml
+          - mithril-bluebuild.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
