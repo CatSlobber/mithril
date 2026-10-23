@@ -1,0 +1,36 @@
+[FileOps]
+ConfirmDeleteSourceArchives=true
+
+[Interface]
+ActiveLayout=Apple Music
+PrevState=Maximised
+
+[MainWindow]
+Geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\t\xff\0\0\x5I\0\0\0\0\0\0\0\0\0\0\t\xff\0\0\x5I\0\0\0\0\x2\0\0\0\n\0\0\0\0\0\0\0\0\0\0\0\t\xff\0\0\x5I)
+Size=@Size(2560 1354)
+State=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\n\0\0\0\x5J\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+
+[MetadataLookup]
+ConfirmWipeWritableTags=true
+
+[Playlist]
+ActiveId=5
+
+[PlaylistWidget]
+LastPlaylistId=5
+PlaylistStates=@ByteArray(\0\0\0\x34x\xda\x63```a```\abN \xfa\x2\xa4Y\x19\x18x\xea\x19\x18}\xa3\x80l& \xe6\x5\xa2\x1e \xcd\xc6\xc0\xc0\xb8\x82\x81\xb1\x83\a\0V\xe1\x4\x36)
+
+[PropertiesDialog]
+BaseWidth=642
+Geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\x3\xab\0\0\0\xe6\0\0\x6\x42\0\0\x3\xf1\0\0\x3\xb6\0\0\x1\x17\0\0\x6\x37\0\0\x3\xe6\0\0\0\0\0\0\0\0\n\0\0\0\x3\xb6\0\0\x1\x17\0\0\x6\x37\0\0\x3\xe6)
+ReplayGain=@ByteArray(eyJBbHRlcm5hdGluZ1Jvd3MiOnRydWUsIlNob3dIZWFkZXIiOnRydWV9)
+SelectionInfo="@ByteArray(eyJBbHRlcm5hdGluZ1Jvd3MiOnRydWUsIk9wdGlvbnMiOjg3LCJTaG93SGVhZGVyIjp0cnVlLCJTaG93SG9yaXpvbnRhbFNjcm9sbGJhciI6ZmFsc2UsIlNob3dWZXJ0aWNhbFNjcm9sbGJhciI6dHJ1ZSwiU3RhdGUiOiJBQUFBL3dBQUFBQUFBQUFCQUFBQUFRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQW53QUFBQUNBQUFBQUFBQUFBQUFBQUFBQUFBQUFHVC8vLy8vQUFBQWhBQUFBQUFBQUFBQ0FBQUFaQUFBQUFFQUFBQUFBQUFDR0FBQUFBRUFBQUFDQUFBRDZBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBUT09In0=)"
+SidebarVisible=false
+Size=@Size(642 720)
+
+[SettingsDialog]
+ExpandedCategories=@ByteArray(\0\0\x1\x10x\xda\x95\x8f\x41\n\x80\x30\f\x4\xe7\xe2w\x8ax\xf2.\b\x82\a\xbfPE\x8bX\x14\xb4\x97\xfe\xdem?P%\x97\xcdl\x96$@\x5\x34\xf4\\\xaa\xc8\xce\x89\xa1\xc3\x12Xqb\xb7\xa8\x61\x10O\xe4\x66\x93\xb7H!ZJ\x8drfi\x9b{\xa8\x8b\x89\t/\x16\x95J[\x8e_\x19\xaf\x89G\x1e\xb4\x9f\xffq\xf9\xba\xa0\xb9K\xe4y\x1\x30 1\x1a)
+Geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\x4y\0\0\x3\xc5\0\0\0\0\0\0\0\0\0\0\x4y\0\0\x3\xc5\0\0\0\0\0\0\0\0\n\0\0\0\0\0\0\0\0\0\0\0\x4y\0\0\x3\xc5)
+LastPage=Fooyin.Page.Interface.Theme
+PageStates="@ByteArray(\0\0\0~x\xda\x63```d``\xd0`pc\xc8\a\xc2J\x86L\x86<\x6=\x86\0\x86\x44\x86t\x86T \xcb\x91!\x85\xa1\f\xc8\xcb\x63H\x6\xf2S\x80j\xbd\x80\x38\xb8\xe2VrJBB\x2S\x12g[J[M\x9b\x8c\x82O\x8a\x46\x82\x46\x9aG\xaaG\xe2\x85T\x8d\x64\x3\x96S/\x19\x9f\xae\x91`:P4\x95\xc7\xd3\xc1h\xa6\xe2lGy\x1d)\x96\x90H\x86\xa9\x85\xec\x93\x66\xf2T2\xbc\xe5\xe2\r\x4\0\x97| 9)"
+Size=@Size(1146 966)
