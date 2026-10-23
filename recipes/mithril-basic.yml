@@ -1,0 +1,107 @@
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: dnf
+    repos:
+      copr:
+      - peterwu/rendezvous
+    install:
+      packages:
+        - bibata-cursor-themes
+
+  - type: dnf
+    install:
+      packages:
+        - ocean-sound-theme
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+        - gnome-system-monitor
+        - gnome-tour
+        - gnome-software
+        - gnome-software-rpm-ostree
+        - gnome-classic-session
+        - gnome-shell-extension-appindicator
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-background-logo
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - f44-backgrounds-gnome
+        - fedora-workstation-backgrounds
+        - gnome-backgrounds
+        - malcontent-control
+        - yelp
+        - yelp-libs
+        - yelp-xsl
+        - htop
+        - net-tools
+        - nvtop
+        - openrgb-udev-rules
+        - oversteer-udev
+        - pam-u2f
+        - pam_yubico
+        - pamu2fcfg
+        - traceroute
+        - vim
+        - yubikey-manager
+
+  - type: fonts
+    fonts:
+      google-fonts:
+        - DM Serif Display
+        - Fraunces
+        - Inter
+        - Inter Tight
+        - JetBrains Mono
+        - Lato
+        - Newsreader
+        - Public Sans
+        - Roboto Mono
+
+  - type: gnome-extensions
+    install:
+      - 3628 # ArcMenu
+      - 3193 # Blur my Shell
+      - 10070 # ChromaLeon
+      - 3210 # Compiz window effect
+      - 3843 # Just Perfection
+      - 10448 # Simple Taskbar
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - org.gnome.baobab
+          - io.github.kolunmi.Bazaar
+          - org.gnome.Calculator
+          - io.github.celluloid_player.Celluloid
+          - org.gnome.Characters
+          - net.donnybeelo.Convey
+          - org.onlyoffice.desktopeditors
+          - com.mattjakeman.ExtensionManager
+          - org.mozilla.firefox
+          - com.github.tchx84.Flatseal
+          - com.toolstack.Folio
+          - org.gnome.font-viewer
+          - org.gnome.Logs
+          - org.gnome.Loupe
+          - org.gnome.Loupe.HEIC
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Papers
+          - org.gnome.seahorse.Application
+          - org.gnome.World.PikaBackup
+          - page.tesk.Refine
+          - net.nokyan.Resources
+          - org.gnome.TextEditor
+
+  - type: gschema-overrides
+    include:
+      - zz1-common.gschema.override
+
+  - type: signing
