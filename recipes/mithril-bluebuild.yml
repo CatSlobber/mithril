@@ -14,9 +14,6 @@ modules:
         destination: /
 
   - type: akmods
-    repos:
-      copr:
-      - ublue-os/akmods
     base: main
     install:
       - xone
