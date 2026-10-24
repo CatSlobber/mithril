@@ -3,7 +3,7 @@ num-workspaces=2
 
 [org.gnome.shell]
 enabled-extensions=['advanced-media-controller@sanjai.com', 'arcmenu@arcmenu.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'user-accent-colors@fabito02', 'compiz-windows-effect@hermes83.github.com', 'just-perfection-desktop@just-perfection', 'simple-taskbar@sultech']
-favorite-apps=['org.Gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.toolstack.Folio.desktop', 'org.fooyin.fooyin.desktop']
 
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/monterey/monterey-dark-blue.png'
