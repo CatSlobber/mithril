@@ -258,6 +258,24 @@ preserve-shell-theme=true
 static-blur=false
 style-popup=3
 
+[org.gnome.shell.extensions.ding]
+add-volumes-opposite=true
+arrangeorder='NAME'
+check-x11wayland=true
+dark-text-in-labels=false
+icon-size='standard'
+keep-arranged=false
+keep-stacked=false
+show-drop-place=true
+show-home=false
+show-link-emblem=true
+show-network-volumes=false
+show-trash=false
+show-volumes=false
+sort-special-folders=false
+start-corner='top-right'
+unstackedtypes=@as []
+
 [org.gnome.shell.extensions.just-perfection]
 accent-color-icon=false
 accessibility-menu=false
