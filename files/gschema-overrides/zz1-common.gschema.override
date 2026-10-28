@@ -371,7 +371,6 @@ application-click-animation='gnome-zoom-out'
 application-hover-action='show-previews'
 application-overflow-enabled=true
 application-overflow-style='taskbar'
-blur-my-shell-dock-mode='dock'
 classic-focus-highlight=false
 classic-focus-highlight-color='#EEEEEE'
 classic-focus-highlight-dominant=false
