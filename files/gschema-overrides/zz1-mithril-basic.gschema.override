@@ -384,7 +384,6 @@ workspaces-in-app-grid=false
 world-clock=false
 
 [org.gnome.shell.extensions.simple-taskbar]
-active-dock-axis='horizontal'
 active-panel-axis='horizontal'
 active-panel-mode='taskbar'
 activities-button-position='right'
@@ -405,7 +404,6 @@ application-click-animation='gnome-zoom-out'
 application-hover-action='show-previews'
 application-overflow-enabled=true
 application-overflow-style='taskbar'
-blur-my-shell-dock-mode='dock'
 classic-focus-highlight=false
 classic-focus-highlight-color='#EEEEEE'
 classic-focus-highlight-dominant=false
