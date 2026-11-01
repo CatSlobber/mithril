@@ -415,6 +415,7 @@ classic-highlight-appicon-hover-background-color='rgba(238, 238, 236, 0.1)'
 classic-highlight-appicon-hover-border-radius=8
 classic-highlight-appicon-pressed-background-color='rgba(238, 238, 236, 0.18)'
 clock-position='right'
+clock-style='gnome'
 clock-visible=true
 combine-app-buttons-mode='always'
 ctrl-click-action='launch-new-instance'
