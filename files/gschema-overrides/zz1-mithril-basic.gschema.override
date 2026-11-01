@@ -583,7 +583,7 @@ locations-show-home=true
 locations-show-mounted-only=true
 locations-show-music=false
 locations-show-network=false
-locations-show-pictures false
+locations-show-pictures=false
 locations-show-videos=false
 match-icon-color=false
 middle-click-action='launch-new-instance'
