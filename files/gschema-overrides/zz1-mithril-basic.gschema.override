@@ -424,7 +424,6 @@ custom-panel-gradient-color='#333333'
 custom-panel-gradient-direction='vertical'
 custom-panel-gradient-enabled=false
 default-gnome-panel=false
-default-panel-window-animate-appicon-hover-animation-duration={'simple': uint32 160, 'ripple': 130, 'magnify': 80}
 default-panel-window-animate-appicon-hover-animation-extent={'ripple': 4, 'magnify': 7}
 default-panel-window-animate-appicon-hover-animation-rotation={'simple': 0, 'ripple': 10, 'magnify': 0}
 default-panel-window-animate-appicon-hover-animation-travel={'simple': 0.29999999999999999, 'ripple': 0.40000000000000002, 'magnify': 0.0}
