@@ -423,7 +423,6 @@ custom-panel-gradient-color='#333333'
 custom-panel-gradient-direction='vertical'
 custom-panel-gradient-enabled=false
 default-gnome-panel=false
-dock-corner-radius=22
 dock-custom-panel-color='#18181b'
 dock-custom-panel-color-enabled=false
 dock-custom-panel-gradient-color='#333333'
