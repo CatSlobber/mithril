@@ -424,7 +424,6 @@ custom-panel-gradient-color='#333333'
 custom-panel-gradient-direction='vertical'
 custom-panel-gradient-enabled=false
 default-gnome-panel=false
-default-panel-mode-settings-saved=true
 default-panel-show-running-windows=false
 default-panel-vertical-settings=@a{sv} {}
 default-panel-vertical-settings-saved=false
