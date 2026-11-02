@@ -390,7 +390,6 @@ activities-button-position='right'
 activities-button-visible=true
 animate-appicon-hover-animation-convexity={'ripple': 2.0, 'magnify': 1.0}
 animate-appicon-hover-animation-duration={'simple': uint32 160, 'ripple': 130, 'magnify': 80}
-animate-appicon-hover-animation-extent={'ripple': 4, 'magnify': 7}
 animate-appicon-hover-animation-rotation={'simple': 0, 'ripple': 10, 'magnify': 0}
 animate-appicon-hover-animation-travel={'simple': 0.25, 'ripple': 0.40000000000000002, 'magnify': 0.0}
 animate-appicon-hover-animation-type='simple'
