@@ -392,7 +392,6 @@ custom-panel-gradient-direction='vertical'
 custom-panel-gradient-enabled=false
 default-gnome-panel=false
 default-panel-horizontal-settings-saved=true
-default-panel-show-running-windows=false
 default-panel-vertical-settings=@a{sv} {}
 default-panel-window-animate-appicon-hover-animation-convexity={'ripple': 2.0, 'magnify': 1.0}
 default-panel-window-animate-appicon-hover-animation-duration={'simple': uint32 160, 'ripple': 130, 'magnify': 80}
