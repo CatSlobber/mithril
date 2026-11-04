@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Checking for updates..."
-rpm-ostree upgrade
+ujust update
 
 if rpm-ostree status --json | jq -e '.deployments[] | select(.staged == true)' >/dev/null; then
     echo
