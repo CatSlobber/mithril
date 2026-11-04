@@ -1,0 +1,21 @@
+name: Make File Executable
+
+on:
+  workflow_dispatch: # Allows you to run this manually with a button click
+
+jobs:
+  chmod:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Change permission
+        run: chmod +x files/system/usr/bin/mithril-update.sh
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: make mithril-update.sh executable"
+          git push
