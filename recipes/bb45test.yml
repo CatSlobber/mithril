@@ -3,7 +3,7 @@
 name: mithril
 description: A streamlined modification of Fedora Silverblue.
 base-image: ghcr.io/blue-build/base-images/fedora-silverblue-nvidia-open
-image-version: 44
+image-version: 45
 
 platforms:
   - linux/amd64
@@ -67,18 +67,21 @@ modules:
         - pamu2fcfg
         - traceroute
         - vim
+        - xorg-x11-xauth
         - yubikey-manager
+
+  - type: dnf
+    repos:
+      nonfree: negativo17
+    install:
+      packages:
+        - steam
 
   - type: fonts
     fonts:
       google-fonts:
-        - DM Serif Display
-        - Fraunces
-        - Inter
-        - Inter Tight
         - JetBrains Mono
         - Lato
-        - Newsreader
         - Public Sans
         - Roboto Mono
 
@@ -105,13 +108,11 @@ modules:
           - io.github.celluloid_player.Celluloid
           - org.gnome.Characters
           - net.donnybeelo.Convey
-          - org.onlyoffice.desktopeditors
           - com.mattjakeman.ExtensionManager
           - org.mozilla.firefox
           - com.github.tchx84.Flatseal
           - com.toolstack.Folio
           - org.gnome.font-viewer
-          - org.fooyin.fooyin
           - org.gnome.Logs
           - org.gnome.Loupe
           - org.gnome.Loupe.HEIC
@@ -119,7 +120,6 @@ modules:
           - org.gnome.Papers
           - org.gnome.seahorse.Application
           - org.gnome.World.PikaBackup
-          - io.github.CyberTimon.RapidRAW
           - page.tesk.Refine
           - net.nokyan.Resources
           - org.gnome.TextEditor
@@ -127,9 +127,6 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-common.gschema.override
+      - zz1-mithril.gschema.override
 
   - type: signing
-
-  - type: gschema-overrides
-    include:
-      - zz1-mithril.gschema.override
