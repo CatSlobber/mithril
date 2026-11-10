@@ -14,11 +14,6 @@ modules:
       - source: system
         destination: /
 
-  - type: akmods
-    base: main
-    install:
-      - openrazer
-
   - type: dnf
     repos:
       copr:
@@ -30,11 +25,7 @@ modules:
   - type: dnf
     install:
       packages:
-        - libvirt
-        - libvirt-client
-        - libvirt-nss
         - ocean-sound-theme
-        - virt-manager
     remove:
       packages:
         - firefox
@@ -83,7 +74,6 @@ modules:
         - JetBrains Mono
         - Lato
         - Public Sans
-        - Roboto Mono
 
   - type: gnome-extensions
     install:
