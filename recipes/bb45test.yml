@@ -15,7 +15,7 @@ modules:
         destination: /
 
   - type: akmods
-    base: main
+    base: asus
     install:
       - xone
 
