@@ -3,7 +3,7 @@
 name: mithril
 description: A streamlined modification of Fedora Silverblue.
 base-image: ghcr.io/blue-build/base-images/fedora-silverblue-nvidia-open
-image-version: 45
+image-version: latest
 
 platforms:
   - linux/amd64
