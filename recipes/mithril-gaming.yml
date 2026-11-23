@@ -12,6 +12,8 @@ modules:
   - from-file: common.yml
 
   - type: dnf
+    repos:
+      nonfree: negativo17
     install:
       packages:
         - steam
