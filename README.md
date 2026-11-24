@@ -1,6 +1,6 @@
 # mithril &nbsp; [![bluebuild build badge](https://github.com/catslobber/mithril/actions/workflows/build.yml/badge.svg)](https://github.com/catslobber/mithril/actions/workflows/build.yml)
 
-[Blue Build](https://blue-build.org/) customizations of Fedora Silverblue 44, based on the uBlue silverblue-main image.
+[Blue Build](https://blue-build.org/) customizations of Fedora Silverblue, based on the uBlue silverblue-main image.
 
 ### UI Customizations
 - Fonts from Google
