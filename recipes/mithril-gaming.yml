@@ -34,3 +34,21 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-mithril-gaming.gschema.override
+      
+  - type: os-release
+    properties:
+      NAME: Mithril Gaming
+      ID: mithril
+      ID_LIKE: fedora
+      VERSION_CODENAME: Silverblue
+      PRETTY_NAME: Mithril
+      FANCY_NAME: Mithril Linux
+      ANSI_COLOR: 0;38;2;138;43;226
+      LOGO: distro-fedora
+      DEFAULT_HOSTNAME: mithril
+      HOME_URL: https://github.com/catslobber/mithril
+      DOCUMENTATION_URL: https://github.com/catslobber/mithril
+      SUPPORT_URL: https://github.com/catslobber/mithril
+      BUG_REPORT_URL: https://github.com/catslobber/mithril/issues/
+      VARIANT: Silverblue
+      VARIANT_ID: mithril-gaming
