@@ -11,6 +11,10 @@ platforms:
 modules:
   - from-file: common.yml
 
+  - type: akmods
+    nvidia-driver: nvidia-open
+    install: []
+
   - type: dnf
     repos:
       nonfree: negativo17
