@@ -5,7 +5,6 @@ modules:
         destination: /
 
   - type: akmods
-    base: main
     nvidia-driver: nvidia-open
 
   - type: dnf
