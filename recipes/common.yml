@@ -4,10 +4,6 @@ modules:
       - source: system
         destination: /
 
-  - type: akmods
-    nvidia-driver: nvidia-open
-    install: []
-
   - type: dnf
     repos:
       copr:
@@ -70,7 +66,6 @@ modules:
         - Lato
         - Newsreader
         - Public Sans
-        - Roboto Mono
 
   - type: gnome-extensions
     install:
