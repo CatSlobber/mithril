@@ -41,7 +41,8 @@ modules:
         - gnome-shell-extension-launch-new-instance
         - gnome-shell-extension-places-menu
         - gnome-shell-extension-window-list
-        - f44-backgrounds-gnome
+        - f44-backgrounds
+        - f45-backgrounds
         - fedora-workstation-backgrounds
         - gnome-backgrounds
         - malcontent-control
