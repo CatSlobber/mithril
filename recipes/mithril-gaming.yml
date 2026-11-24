@@ -9,11 +9,11 @@ platforms:
   - linux/amd64
 
 modules:
-  - from-file: common.yml
-
   - type: akmods
     nvidia-driver: nvidia-open
     install: []
+
+  - from-file: common.yml
 
   - type: dnf
     repos:
