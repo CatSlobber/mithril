@@ -7,8 +7,7 @@ modules:
   - type: akmods
     base: main
     nvidia-driver: nvidia-open
-#    install:
-#      - xone
+    install:
 
   - type: dnf
     repos:
