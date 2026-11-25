@@ -112,5 +112,3 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-common.gschema.override
-
-  - type: signing
