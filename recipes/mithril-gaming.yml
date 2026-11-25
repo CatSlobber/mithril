@@ -9,6 +9,7 @@ platforms:
   - linux/amd64
 
   - type: akmods
+    nvidia-driver: nvidia-open
     base: main
     install:
       - xone
