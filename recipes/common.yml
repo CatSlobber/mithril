@@ -4,6 +4,11 @@ modules:
       - source: system
         destination: /
 
+  - type: akmods
+    base: main
+    install:
+      - xone
+
   - type: dnf
     repos:
       copr:
