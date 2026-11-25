@@ -40,7 +40,7 @@ modules:
       PRETTY_NAME: Mithril
       FANCY_NAME: Mithril Linux
       ANSI_COLOR: 0;38;2;138;43;226
-      LOGO: distro-fedora
+#      LOGO: distro-fedora
       DEFAULT_HOSTNAME: mithril
       HOME_URL: https://github.com/catslobber/mithril
       DOCUMENTATION_URL: https://github.com/catslobber/mithril
