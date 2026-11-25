@@ -9,6 +9,11 @@ platforms:
   - linux/amd64
 
 modules:
+  - type: akmods
+    base: main
+    install:
+      - xone
+
   - from-file: common.yml
 
   - type: gschema-overrides
