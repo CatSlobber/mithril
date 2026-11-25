@@ -63,13 +63,14 @@
 - Fedora Media Writer
 - Fedora bundled Gnome extensions
 - Fedora and Gnome default backgrounds
+- Noto family of fonts hidden
 
 ### Gaming Additions
 - xone akmod
+- Caffeine extension
 - Nvidia akmod [mithril-gaming only]
-- Steam (native) [mithril-gaming only]
+- Steam (negativo17, native) [mithril-gaming only]
 - Heroic Launcher [mithril-gaming only]
-- Caffeine extension [mithril-gaming only]
 
 ## Installation
 
