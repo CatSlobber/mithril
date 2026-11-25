@@ -75,6 +75,7 @@ modules:
       - 3628 # ArcMenu
       - 16 # Auto Move Windows
       - 3193 # Blur my Shell
+      - 517 # Caffeine
       - 10070 # ChromaLeon
       - 3210 # Compiz window effect
       - 2087 # Desktop Icons NG (DING)
