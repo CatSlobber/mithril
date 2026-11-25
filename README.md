@@ -88,31 +88,6 @@
   ```
   sudo bluebuild generate-iso --iso-name mithril-gaming-44-x64.iso image ghcr.io/catslobber/mithril-gaming:latest
   ```
-
-### Rebase an existing atomic Fedora installation
-
-- Rebase to the unsigned image to get the proper signing keys and policies installed and reboot:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril:latest
-  systemctl reboot
-  ```
-  or for the gaming variant:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/catslobber/mithril-gaming:latest
-  systemctl reboot
-  ```
-
-- Then rebase to the signed image and reboot again to complete the installation:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril:latest
-  systemctl reboot
-  ```
-  mithril-gaming:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/catslobber/mithril-gaming:latest
-  systemctl reboot
-  ```
-
 ## Verification
 
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
