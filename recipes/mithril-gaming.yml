@@ -56,3 +56,5 @@ modules:
 #      BUG_REPORT_URL: https://github.com/catslobber/mithril/issues/
 #      VARIANT: Silverblue
 #      VARIANT_ID: mithril-gaming
+
+  - type: signing
