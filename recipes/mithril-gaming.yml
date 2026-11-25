@@ -9,9 +9,6 @@ platforms:
   - linux/amd64
 
 modules:
-#  - type: akmods
-#    nvidia-driver: nvidia-open
-
   - from-file: common.yml
 
   - type: dnf
