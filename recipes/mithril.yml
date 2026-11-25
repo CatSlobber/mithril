@@ -3,7 +3,7 @@
 name: mithril
 description: A streamlined modification of Fedora Silverblue.
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+image-version: 45
 
 platforms:
   - linux/amd64
