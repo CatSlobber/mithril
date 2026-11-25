@@ -63,7 +63,6 @@
 - Fedora Media Writer
 - Fedora bundled Gnome extensions
 - Fedora and Gnome default backgrounds
-- Noto family of fonts hidden
 
 ### Gaming Additions
 - xone akmod
