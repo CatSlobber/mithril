@@ -3,7 +3,7 @@
 name: mithril-gaming
 description: A modification of Fedora Silverblue, streamlined for gaming and general use.
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+image-version: 45
 
 platforms:
   - linux/amd64
@@ -18,10 +18,6 @@ modules:
       packages:
         - steam
         
-  - type: gnome-extensions
-    install:
-      - 517 # Caffeine
-
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -35,22 +31,22 @@ modules:
     include:
       - zz1-mithril-gaming.gschema.override
 
-#  - type: os-release
-#    properties:
-#      NAME: Mithril Gaming
-#      ID: mithril
-#      ID_LIKE: fedora
-#      VERSION_CODENAME: Silverblue
-#      PRETTY_NAME: Mithril
-#      FANCY_NAME: Mithril Linux
-#      ANSI_COLOR: 0;38;2;138;43;226
-#      LOGO: distro-fedora
-#      DEFAULT_HOSTNAME: mithril
-#      HOME_URL: https://github.com/catslobber/mithril
-#      DOCUMENTATION_URL: https://github.com/catslobber/mithril
-#      SUPPORT_URL: https://github.com/catslobber/mithril
-#      BUG_REPORT_URL: https://github.com/catslobber/mithril/issues/
-#      VARIANT: Silverblue
-#      VARIANT_ID: mithril-gaming
+  - type: os-release
+    properties:
+      NAME: Mithril Gaming
+      ID: mithril
+      ID_LIKE: fedora
+      VERSION_CODENAME: Silverblue
+      PRETTY_NAME: Mithril
+      FANCY_NAME: Mithril Linux
+      ANSI_COLOR: 0;38;2;138;43;226
+      LOGO: distro-fedora
+      DEFAULT_HOSTNAME: mithril
+      HOME_URL: https://github.com/catslobber/mithril
+      DOCUMENTATION_URL: https://github.com/catslobber/mithril
+      SUPPORT_URL: https://github.com/catslobber/mithril
+      BUG_REPORT_URL: https://github.com/catslobber/mithril/issues/
+      VARIANT: Silverblue
+      VARIANT_ID: mithril-gaming
 
   - type: signing
