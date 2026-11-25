@@ -58,13 +58,10 @@ modules:
   - type: fonts
     fonts:
       google-fonts:
-        - DM Serif Display
-        - Fraunces
         - Inter
-        - Inter Tight
         - JetBrains Mono
         - Lato
-        - Newsreader
+        - Libre Baskerville
         - Public Sans
 
   - type: gnome-extensions
