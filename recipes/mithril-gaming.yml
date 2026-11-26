@@ -8,14 +8,14 @@ image-version: 45
 platforms:
   - linux/amd64
 
+  - from-file: common.yml
+
 modules:
   - type: akmods
     nvidia-driver: nvidia-open
     base: main
     install:
       - xone
-
-  - from-file: common.yml
 
   - type: dnf
     repos:
