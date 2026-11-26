@@ -11,9 +11,9 @@ platforms:
 modules:
   - type: akmods
     nvidia-driver: nvidia-open
-#    base: main
-#    install:
-#      - xone
+    base: main
+    install:
+      - xone
 
   - from-file: common.yml
 
